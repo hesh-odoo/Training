@@ -1,0 +1,23 @@
+{
+    'name': 'Real Estate',
+    'version': '1.0',
+    'category': 'Tools',
+    'sequence': -100,
+    'summary': 'Real Estate module',
+    'description': """Real Estate Management module""",
+    'website': 'https://www.odoo.com/app/real_estate',
+    'depends':[],
+    'data': [
+        'views/estate_views.xml',
+        'views/estate_property_offers.xml',
+        'views/estate_property_type_views.xml',
+        'views/estate_property_tags_views.xml',
+        'views/estate_property_menu.xml',
+        'security/ir.model.access.csv',
+        ],
+    'demo': [],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+    'license': 'LGPL-3',
+}
